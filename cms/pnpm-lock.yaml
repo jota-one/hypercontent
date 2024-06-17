@@ -31,8 +31,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(eslint@8.57.0)
       '@nuxtjs/plausible':
-        specifier: ^0.2.4
-        version: 0.2.4(magicast@0.3.4)(rollup@4.18.0)
+        specifier: ^1.0.0
+        version: 1.0.0(magicast@0.3.4)(rollup@4.18.0)
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.0
         version: 6.12.0(magicast@0.3.4)(rollup@4.18.0)
@@ -241,6 +241,9 @@ packages:
   '@babel/types@7.24.7':
     resolution: {integrity: sha512-XEFXSlxiG5td2EJRe8vOmRbaXVgfcBlszKujvVmWIK/UpywWljQCfzAv3RQCGujWQ1RD4YYWEAqDXfuJiy8f5Q==}
     engines: {node: '>=6.9.0'}
+
+  '@barbapapazes/plausible-tracker@0.4.0':
+    resolution: {integrity: sha512-4hhXK62ORb4feJfjnIILXRnb6xfejHM6yvGCid6MwNdKiQyj6YLW0M779zXLH5IBS4mQObmrNul2HUleeavSKw==}
 
   '@cloudflare/kv-asset-handler@0.3.2':
     resolution: {integrity: sha512-EeEjMobfuJrwoctj7FA1y1KEbM0+Q1xSjobIEyie9k4haVEBB7vkDvsasw1pM3rO39mL2akxIAzLMUAtrMHZhA==}
@@ -747,8 +750,8 @@ packages:
   '@nuxtjs/mdc@0.6.1':
     resolution: {integrity: sha512-zS5QK7DZ/SBrjqQX1DOy7GnxKy+wbj2+LvooefOWmQqHfLTAqJLVIjuv/BmKnQWiRCq19+uysys3iY42EoY5/A==}
 
-  '@nuxtjs/plausible@0.2.4':
-    resolution: {integrity: sha512-9HrSl9ZGKS/7bULAt8uzAGo9BJyIZebzRSLQD8ZhiODaGyRdEQlgcJBw5JgUzjcC5n4T0ZlX3FC6C3Wyp7opgA==}
+  '@nuxtjs/plausible@1.0.0':
+    resolution: {integrity: sha512-2K0/AbPJAEr3yMA8oDD0I6WB+SXs/YlF297azjR5eSZVQjuimDAwLf4bEXk9ilbrzoMFmm0Tpzn4CC6f0rISBA==}
 
   '@nuxtjs/tailwindcss@6.12.0':
     resolution: {integrity: sha512-vXvEq8z177TQcx0tc10mw3O6T9WeN0iTL8hIKGDfidmr+HKReexJU01aPgHefFrCu4LJB70egYFYnywzB9lMyQ==}
@@ -3625,10 +3628,6 @@ packages:
   pkg-types@1.1.1:
     resolution: {integrity: sha512-ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==}
 
-  plausible-tracker@0.3.9:
-    resolution: {integrity: sha512-hMhneYm3GCPyQon88SZrVJx+LlqhM1kZFQbuAgXPoh/Az2YvO1B6bitT9qlhpiTdJlsT5lsr3gPmzoVjb5CDXA==}
-    engines: {node: '>=10'}
-
   portfinder@1.0.32:
     resolution: {integrity: sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==}
     engines: {node: '>= 0.12.0'}
@@ -5199,6 +5198,8 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
+  '@barbapapazes/plausible-tracker@0.4.0': {}
+
   '@cloudflare/kv-asset-handler@0.3.2':
     dependencies:
       mime: 3.0.0
@@ -5935,12 +5936,11 @@ snapshots:
       - rollup
       - supports-color
 
-  '@nuxtjs/plausible@0.2.4(magicast@0.3.4)(rollup@4.18.0)':
+  '@nuxtjs/plausible@1.0.0(magicast@0.3.4)(rollup@4.18.0)':
     dependencies:
+      '@barbapapazes/plausible-tracker': 0.4.0
       '@nuxt/kit': 3.12.1(magicast@0.3.4)(rollup@4.18.0)
       defu: 6.1.4
-      pathe: 1.1.2
-      plausible-tracker: 0.3.9
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -9526,8 +9526,6 @@ snapshots:
       confbox: 0.1.7
       mlly: 1.7.1
       pathe: 1.1.2
-
-  plausible-tracker@0.3.9: {}
 
   portfinder@1.0.32:
     dependencies:
