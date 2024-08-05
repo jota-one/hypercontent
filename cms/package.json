@@ -12,7 +12,7 @@
     "postinstall": "nuxt prepare .playground"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/eslint-config": "^0.5.0",
     "@nuxtjs/plausible": "^0.2.4",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "eslint": "^8.57.0",
