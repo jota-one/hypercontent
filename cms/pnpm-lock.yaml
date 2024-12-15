@@ -27,8 +27,8 @@ importers:
         specifier: ^1.11.13
         version: 1.11.13
       pocketbase:
-        specifier: ^0.21.5
-        version: 0.21.5
+        specifier: ^0.23.0
+        version: 0.23.0
       snarkdown:
         specifier: ^2.0.0
         version: 2.0.0
@@ -3402,8 +3402,8 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==, tarball: https://registry.npmjs.org/pluralize/-/pluralize-8.0.0.tgz}
     engines: {node: '>=4'}
 
-  pocketbase@0.21.5:
-    resolution: {integrity: sha512-bnI/uinnQps+ElSlzxkc4yvwuSFfKcoszDtXH/4QT2FhGq2mJVUvDlxn+rjRXVntUjPfmMG5LEPZ1eGqV6ssog==, tarball: https://registry.npmjs.org/pocketbase/-/pocketbase-0.21.5.tgz}
+  pocketbase@0.23.0:
+    resolution: {integrity: sha512-S9b/QSKGXsRyL55m8MoXMucPTpMvpOLlOLTSduraIOzwVt8Epp0j7V53a1qW7VbF2pL7PC579DOruxJBWqBYTg==, tarball: https://registry.npmjs.org/pocketbase/-/pocketbase-0.23.0.tgz}
 
   portfinder@1.0.32:
     resolution: {integrity: sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==, tarball: https://registry.npmjs.org/portfinder/-/portfinder-1.0.32.tgz}
@@ -8912,7 +8912,7 @@ snapshots:
 
   pluralize@8.0.0: {}
 
-  pocketbase@0.21.5: {}
+  pocketbase@0.23.0: {}
 
   portfinder@1.0.32:
     dependencies:

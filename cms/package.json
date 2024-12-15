@@ -27,7 +27,7 @@
     "@nuxt/image": "^1.8.1",
     "@vueuse/core": "^10.11.1",
     "dayjs": "^1.11.13",
-    "pocketbase": "^0.21.5",
+    "pocketbase": "^0.23.0",
     "snarkdown": "^2.0.0"
   },
   "engines": {
